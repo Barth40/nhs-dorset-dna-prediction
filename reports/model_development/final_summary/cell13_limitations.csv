@@ -1,0 +1,10 @@
+limitation,implication
+Synthetic dataset,Results may not represent real NHS Dorset patients.
+Modest model discrimination,Risk rankings contain substantial uncertainty.
+Retrospective outreach simulation,Weekly patient selection has not been tested in live clinical operations.
+Assumed Monday calling schedule,Actual NHS workflow may require a different calling time or frequency.
+Historical prediction availability,Recorded cutoffs are used as a proxy; predictions were not freshly generated at the simulated calling time.
+Cancellation handling,Historical cancellation status at calling time has not been fully reconstructed.
+Partial test weeks,Boundary weeks may not represent complete clinic activity.
+Fairness differences,Subgroup performance requires further investigation before deployment.
+Unknown intervention effectiveness,"Estimated prevented DNAs are scenarios, not measured causal effects."

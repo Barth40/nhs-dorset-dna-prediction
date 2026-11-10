@@ -1,0 +1,11 @@
+Metric,Value
+Total Appointments,40180.0
+Total Columns,20.0
+Total Missing Values,8799.0
+Overall Cell Completeness (%),98.91
+Duplicate Rows,180.0
+Duplicate Appointment IDs,180.0
+Negative Lead Times,110.0
+DNA Appointments,3329.0
+Overall DNA Rate (%),8.29
+Attended/DNA Outcome Rate (%),9.11

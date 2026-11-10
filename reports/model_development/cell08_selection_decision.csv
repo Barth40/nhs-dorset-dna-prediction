@@ -1,0 +1,2 @@
+selected_model,alternative_model,selection_metric,validation_weeks,test_dataset_used,selection_status,important_limitation
+XGBoost - Tuned,Logistic Regression - Baseline,retrospective_weekly_dna_capture,7,False,provisional,Appointment-week ranking is retrospective; prospective outreach eligibility is unverified.

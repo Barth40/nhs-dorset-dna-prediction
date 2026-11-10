@@ -1,0 +1,6 @@
+feature,possible_timestamp_columns,matching_timestamp_columns,availability_verified,reason
+sms_reminder_sent,"sms_reminder_datetime, sms_sent_datetime, reminder_sent_datetime",None found,False,"Source definitions, event histories or historical snapshots are required."
+previous_dnas_12m,"previous_dna_event_datetime, historical_appointment_datetime",None found,False,"Source definitions, event histories or historical snapshots are required."
+rescheduled_count,"rescheduled_datetime, reschedule_event_datetime",None found,False,"Source definitions, event histories or historical snapshots are required."
+long_term_conditions,"diagnosis_recorded_datetime, condition_recorded_datetime",None found,False,"Source definitions, event histories or historical snapshots are required."
+interpreter_required,interpreter_recorded_datetime,None found,False,"Source definitions, event histories or historical snapshots are required."

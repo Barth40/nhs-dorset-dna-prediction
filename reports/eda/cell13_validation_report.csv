@@ -1,0 +1,20 @@
+check,status,critical,details
+Expected modelling population,PASS,True,"Observed 36,264; expected 36,264"
+Expected DNA count,PASS,True,"Observed 3,306; expected 3,306"
+Expected attended count,PASS,True,"Observed 32,958; expected 32,958"
+Binary target validity,PASS,True,Target must contain only 0 and 1.
+No missing appointment identifiers,PASS,True,Missing identifiers: 0
+Unique appointment identifiers,PASS,True,Duplicate appointment identifiers: 0
+Only Attended and DNA outcomes,PASS,True,Cancellations must not be in the binary cohort.
+Outcome and target agreement,PASS,True,dna_target must match attendance_status.
+Required datetime completeness,PASS,True,"Booking, appointment and cutoff dates must exist."
+Prediction cutoff accuracy,PASS,True,Short notice: at booking; long notice: seven days before appointment.
+Valid booking and prediction chronology,PASS,True,Booking <= cutoff < appointment.
+Missingness reconciliation: clinic_checkin_time,PASS,True,"Observed 36,264; expected 36,264"
+Missingness reconciliation: imd_decile,PASS,True,"Observed 1,265; expected 1,265"
+Missingness reconciliation: distance_km,PASS,True,Observed 362; expected 362
+Missingness reconciliation: age,PASS,True,Observed 48; expected 48
+Every modelling column audited,PASS,True,Dataset columns: 25; audited columns: 25
+No unclassified features,PASS,True,Unclassified features: 0
+Leakage restriction policy,PASS,True,Required exclusions and conditional restrictions.
+Required EDA reports available,PASS,False,Available: 9/9

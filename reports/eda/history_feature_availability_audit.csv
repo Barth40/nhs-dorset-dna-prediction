@@ -1,0 +1,3 @@
+feature,availability_status,required_check,modelling_decision
+previous_dnas_12m,Not yet verified,Reconstruct prior DNAs from appointments with outcomes known before prediction cutoff.,Use only after point-in-time validation.
+rescheduled_count,Not yet verified,Confirm rescheduling events occurred on or before prediction cutoff.,Use only after point-in-time validation.

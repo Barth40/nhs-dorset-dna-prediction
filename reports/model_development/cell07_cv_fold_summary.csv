@@ -1,0 +1,4 @@
+fold,training_records,validation_records,training_dnas,validation_dnas,last_training_appointment,first_validation_cutoff
+1,9150,4923,892,443,2025-07-02 12:00:00,2025-07-02 12:30:00
+2,14119,4922,1333,423,2025-08-20 13:30:00,2025-08-20 14:00:00
+3,19038,4923,1760,413,2025-10-10 08:30:00,2025-10-10 09:00:00

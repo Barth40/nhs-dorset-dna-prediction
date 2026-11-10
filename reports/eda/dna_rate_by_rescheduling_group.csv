@@ -1,0 +1,5 @@
+reschedule_group,appointments,dna_count,attended_count,dna_rate_percent
+Never rescheduled,26732,2302,24430,8.61
+Rescheduled once,6654,667,5987,10.02
+Rescheduled twice,2190,247,1943,11.28
+Rescheduled 3+ times,688,90,598,13.08

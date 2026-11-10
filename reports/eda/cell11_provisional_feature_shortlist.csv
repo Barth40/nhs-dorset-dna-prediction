@@ -1,0 +1,17 @@
+feature,audit_status,missing_count,missing_percent,reason,approved_for_modelling
+age,Candidate - source confirmation required,48,0.13,Potentially suitable if age is calculated using information available at prediction time.,False
+sex,Candidate - source confirmation required,0,0.0,Potentially available at booking; assess fairness and necessity before modelling.,False
+imd_decile,Conditional - verification required,1265,3.49,Confirm postcode and deprivation mapping were available at prediction time.,False
+ethnic_group,Candidate - source confirmation required,0,0.0,Retain for fairness assessment. Predictive use requires separate justification and governance review.,False
+distance_km,Conditional - verification required,362,1.0,Confirm patient address and clinic location were available at prediction time.,False
+interpreter_required,Conditional - verification required,0,0.0,Confirm interpreter requirements were recorded before the prediction cutoff.,False
+long_term_conditions,Conditional - verification required,0,0.0,Confirm condition counts reflect diagnoses known at prediction time.,False
+specialty,Candidate - source confirmation required,0,0.0,Usually known at booking; verify source.,False
+appointment_type,Candidate - source confirmation required,0,0.0,Usually established when an appointment is booked; verify cutoff-state accuracy.,False
+consultation_mode,Candidate - source confirmation required,0,0.0,Usually scheduled before the appointment; verify no later changes are included.,False
+referral_source,Candidate - source confirmation required,0,0.0,Usually available from referral information; verify source.,False
+rescheduled_count,Conditional - verification required,0,0.0,Rescheduling count may include events after the prediction cutoff.,False
+previous_dnas_12m,Conditional - verification required,0,0.0,Historical attendance count requires proof that only information available before prediction cutoff was included.,False
+booking_lead_days,Candidate - source confirmation required,0,0.0,Derived from booking and appointment dates; verify values reflect the original schedule.,False
+days_until_appointment_at_prediction,Candidate - source confirmation required,0,0.0,Derived from the scheduled appointment date and prediction cutoff.,False
+booking_notice_group,Candidate - source confirmation required,0,0.0,"Derived from booking lead time and known at the prediction cutoff, subject to source validation.",False

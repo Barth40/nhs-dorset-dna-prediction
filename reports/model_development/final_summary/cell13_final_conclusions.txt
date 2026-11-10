@@ -1,0 +1,30 @@
+NHS DORSET - OUTPATIENT DNA PREDICTION
+FINAL EVALUATION SUMMARY
+
+Selected model: XGBoost - Tuned
+Test ROC-AUC: 0.6042
+Test PR-AUC: 0.1328
+
+Weeks evaluated: 9
+Patient-week calls selected: 1350
+Actual DNAs identified: 175
+Precision@150: 12.96%
+Recall@150: 37.47%
+Lift over random: 1.37x
+
+Illustrative central intervention scenario:
+2.72 DNAs prevented/week
+
+Interpretation:
+The selected model demonstrates modest discrimination.
+Risk-based outreach performed better than random
+selection in the retrospective eligible population.
+
+Important qualification:
+Identified DNAs are not prevented DNAs.
+The intervention scenarios are not causal estimates.
+
+Recommendation:
+Conduct a prospective, fairness-monitored NHS pilot
+with human oversight, secure data handling and
+controlled evaluation of telephone outreach.

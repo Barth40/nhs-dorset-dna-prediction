@@ -1,0 +1,3 @@
+model,threshold_source,selected_threshold,validation_precision,validation_recall,validation_f1
+XGBoost - Tuned,validation_only,0.09998757392168045,0.14138438880706922,0.4413793103448276,0.21416620189626326
+Logistic Regression - Baseline,validation_only,0.11647974467460284,0.13991416309012875,0.37471264367816093,0.20375

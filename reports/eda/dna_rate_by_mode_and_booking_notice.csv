@@ -1,0 +1,7 @@
+consultation_mode,booking_notice_group,appointments,dna_count,attended_count,dna_rate_percent
+Face-to-face,Long notice (7+ days),26907,2628,24279,9.77
+Face-to-face,Short notice (<7 days),2153,154,1999,7.15
+Telephone,Long notice (7+ days),5261,368,4893,6.99
+Telephone,Short notice (<7 days),447,33,414,7.38
+Video,Long notice (7+ days),1399,115,1284,8.22
+Video,Short notice (<7 days),97,8,89,8.25

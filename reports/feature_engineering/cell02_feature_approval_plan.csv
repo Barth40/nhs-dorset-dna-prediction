@@ -1,0 +1,8 @@
+feature_area,requirement,status
+Appointment characteristics,Verify values at prediction cutoff.,Pending
+Patient characteristics,Verify source-system availability and appropriate predictive use.,Pending
+Historical DNA counts,Reconstruct counts using only events known before prediction cutoff.,Restricted
+Rescheduling history,Verify rescheduling event timestamps.,Restricted
+SMS reminders,Verify intervention timing; exclude from initial model.,Excluded
+Fairness variables,Retain for subgroup evaluation and justify predictive use.,Separate audit
+Train/test splitting,Use chronological splitting and fit preprocessing on training only.,Pending

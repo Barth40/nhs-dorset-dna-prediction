@@ -1,0 +1,6 @@
+Column,Lower Bound,Upper Bound,Outlier Count,Outlier Percentage
+age,-33.5,138.5,16,0.04
+distance_km,-6.1499999999999995,21.45,1341,3.34
+long_term_conditions,-3.0,5.0,400,1.0
+rescheduled_count,-1.5,2.5,769,1.91
+previous_dnas_12m,0.0,0.0,8776,21.84

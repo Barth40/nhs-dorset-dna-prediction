@@ -1,0 +1,14 @@
+feature,data_type,missing_count,unique_values
+booking_lead_days_exact,float64,0,29591
+prediction_notice_days_exact,float64,0,2143
+is_short_notice,int64,0,2
+appointment_day_of_week,int32,0,5
+appointment_month,int32,0,12
+appointment_day_of_month,int32,0,31
+appointment_is_weekend,int64,0,1
+appointment_hour,int32,0,9
+appointment_minute,int32,0,2
+appointment_time_decimal,float64,0,17
+appointment_period,str,0,2
+booking_lead_band,category,0,7
+booking_lead_log1p,float64,0,29591

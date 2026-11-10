@@ -1,0 +1,10 @@
+stage,action
+Feature availability,Confirm the cutoff-state values of candidate predictors.
+Feature engineering,Develop safe timing and appointment features without future information.
+Chronological split,"Use time-ordered training, validation and test periods."
+Preprocessing,Fit imputation and encoding using training data only.
+Baseline model,Train a simple interpretable classification baseline.
+Model comparison,Compare candidate models using the same held-out evaluation design.
+Evaluation,"Assess PR-AUC, ROC-AUC, recall, precision, calibration and top-150 utility."
+Fairness,Compare subgroup performance and intervention selection.
+Operational impact,Estimate weekly workload and potentially prevented DNAs.

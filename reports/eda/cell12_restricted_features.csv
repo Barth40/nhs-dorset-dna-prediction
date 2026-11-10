@@ -1,0 +1,4 @@
+feature,audit_status,reason
+rescheduled_count,Conditional - verification required,Rescheduling count may include events after the prediction cutoff.
+sms_reminder_sent,Exclude,Reminder timing is not verified against the prediction cutoff.
+previous_dnas_12m,Conditional - verification required,Historical attendance count requires proof that only information available before prediction cutoff was included.

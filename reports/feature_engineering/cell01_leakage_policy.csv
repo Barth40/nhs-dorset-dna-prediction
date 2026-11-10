@@ -1,0 +1,9 @@
+feature,decision,reason
+dna_target,Target only,Outcome to be predicted.
+attendance_status,Exclude,Reveals actual attendance outcome.
+clinic_checkin_time,Exclude,Check-in is an attendance-related event occurring after prediction.
+appointment_id,Identifier only,Not a predictive input.
+patient_id,Identifier only,Retain separately for tracking and repeated-patient evaluation.
+previous_dnas_12m,Restricted,Historical count requires point-in-time verification.
+rescheduled_count,Restricted,May include rescheduling events after prediction cutoff.
+sms_reminder_sent,Restricted,Reminder timing relative to prediction cutoff is unverified.

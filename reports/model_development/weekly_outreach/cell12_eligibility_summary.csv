@@ -1,0 +1,7 @@
+criterion,appointments
+All test appointments,5488
+Booked by Monday 09:00,5417
+Prediction cutoff by Monday 09:00,5417
+Appointment still upcoming,5212
+Valid patient identifier,5488
+Eligible appointments,5141

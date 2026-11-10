@@ -1,0 +1,8 @@
+finding,modelling_implication,caution
+Booking lead time,Evaluate lead time and safe calendar features at the prediction cutoff.,Check chronology and any appointment date changes.
+Previous DNA history,Potentially useful historical predictor.,Exclude until point-in-time history is verified.
+Rescheduling history,May capture appointment instability.,Exclude until event timestamps are verified.
+Appointment characteristics,"Consider specialty, appointment type and consultation mode.",Confirm recorded values existed at the cutoff.
+Patient characteristics,Evaluate age and appropriately justified patient variables.,"Assess missingness, fairness and necessity."
+Deprivation and travel distance,Investigate contextual access barriers.,Verify source availability and avoid causal interpretations.
+SMS reminder status,May be relevant to intervention design.,Exclude from modelling until reminder timing is verified.

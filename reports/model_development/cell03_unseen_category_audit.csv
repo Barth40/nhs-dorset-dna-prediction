@@ -1,0 +1,17 @@
+split,feature,unseen_category_count,unseen_categories
+validation,interpreter_required,0,
+test,interpreter_required,0,
+validation,specialty,0,
+test,specialty,0,
+validation,appointment_type,0,
+test,appointment_type,0,
+validation,consultation_mode,0,
+test,consultation_mode,0,
+validation,referral_source,0,
+test,referral_source,0,
+validation,appointment_day_of_week,0,
+test,appointment_day_of_week,0,
+validation,appointment_month,1,1
+test,appointment_month,2,"2, 3"
+validation,appointment_hour,0,
+test,appointment_hour,0,

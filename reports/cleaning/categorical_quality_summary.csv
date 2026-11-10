@@ -1,0 +1,15 @@
+column,unique_values,missing_values,missing_percentage
+appointment_id,40000,0,0.0
+patient_id,15458,0,0.0
+sex,7,0,0.0
+ethnic_group,6,0,0.0
+interpreter_required,2,0,0.0
+specialty,9,0,0.0
+appointment_type,2,0,0.0
+consultation_mode,3,0,0.0
+referral_source,4,0,0.0
+appointment_datetime,4427,0,0.0
+booked_datetime,36972,0,0.0
+sms_reminder_sent,2,0,0.0
+attendance_status,4,0,0.0
+clinic_checkin_time,520,6952,17.38

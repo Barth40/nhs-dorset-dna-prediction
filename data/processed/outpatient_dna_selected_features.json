@@ -1,0 +1,22 @@
+{
+    "feature_count": 15,
+    "features": [
+        "age",
+        "age_missing_flag",
+        "distance_km",
+        "distance_missing_flag",
+        "long_term_conditions",
+        "interpreter_required",
+        "specialty",
+        "appointment_type",
+        "consultation_mode",
+        "referral_source",
+        "booking_lead_days_exact",
+        "is_short_notice",
+        "appointment_day_of_week",
+        "appointment_month",
+        "appointment_hour"
+    ],
+    "status": "provisional",
+    "note": "Verify feature availability at prediction cutoff before deployment."
+}

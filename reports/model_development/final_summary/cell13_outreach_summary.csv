@@ -1,0 +1,2 @@
+weeks_evaluated,eligible_patient_week_candidates,patients_selected,actual_dnas_among_selected,precision_at_150,recall_at_150,expected_random_dnas,lift_vs_random
+9,5024,1350,175,0.12962962962962962,0.3747323340471092,127.60499305608428,1.3714196898477546

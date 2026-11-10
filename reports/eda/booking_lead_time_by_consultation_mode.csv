@@ -1,0 +1,4 @@
+consultation_mode,appointments,mean_lead_days,median_lead_days,minimum_lead_days,maximum_lead_days
+Face-to-face,29060,46.06,36.1,0.03,300.27
+Telephone,5708,45.66,36.93,0.03,299.76
+Video,1496,46.08,36.83,0.02,280.97

@@ -1,0 +1,26 @@
+feature,data_type,missing_count,missing_percent,audit_status,reason
+appointment_id,str,0,0.0,Exclude,Appointment identifier; exclude as a predictor.
+patient_id,str,0,0.0,Exclude,Patient identifier; exclude as a direct predictor to reduce memorisation and identity leakage.
+age,float64,48,0.13,Candidate - source confirmation required,Potentially suitable if age is calculated using information available at prediction time.
+sex,str,0,0.0,Candidate - source confirmation required,Potentially available at booking; assess fairness and necessity before modelling.
+imd_decile,float64,1265,3.49,Conditional - verification required,Confirm postcode and deprivation mapping were available at prediction time.
+ethnic_group,str,0,0.0,Candidate - source confirmation required,Retain for fairness assessment. Predictive use requires separate justification and governance review.
+distance_km,float64,362,1.0,Conditional - verification required,Confirm patient address and clinic location were available at prediction time.
+interpreter_required,str,0,0.0,Conditional - verification required,Confirm interpreter requirements were recorded before the prediction cutoff.
+long_term_conditions,int64,0,0.0,Conditional - verification required,Confirm condition counts reflect diagnoses known at prediction time.
+specialty,str,0,0.0,Candidate - source confirmation required,Usually known at booking; verify source.
+appointment_type,str,0,0.0,Candidate - source confirmation required,Usually established when an appointment is booked; verify cutoff-state accuracy.
+consultation_mode,str,0,0.0,Candidate - source confirmation required,Usually scheduled before the appointment; verify no later changes are included.
+referral_source,str,0,0.0,Candidate - source confirmation required,Usually available from referral information; verify source.
+appointment_datetime,datetime64[us],0,0.0,Audit metadata,"Use for chronology, splitting and safe calendar feature derivation."
+booked_datetime,datetime64[us],0,0.0,Audit metadata,"Use for chronology, splitting and safe calendar feature derivation."
+rescheduled_count,int64,0,0.0,Conditional - verification required,Rescheduling count may include events after the prediction cutoff.
+sms_reminder_sent,str,0,0.0,Exclude,Reminder timing is not verified against the prediction cutoff.
+previous_dnas_12m,int64,0,0.0,Conditional - verification required,Historical attendance count requires proof that only information available before prediction cutoff was included.
+attendance_status,str,0,0.0,Exclude,Original attendance outcome.
+clinic_checkin_time,datetime64[s],36264,100.0,Exclude,Post-booking check-in information associated with appointment attendance.
+booking_lead_days,float64,0,0.0,Candidate - source confirmation required,Derived from booking and appointment dates; verify values reflect the original schedule.
+prediction_cutoff_datetime,datetime64[us],0,0.0,Audit metadata,Reference timestamp for point-in-time validation.
+days_until_appointment_at_prediction,float64,0,0.0,Candidate - source confirmation required,Derived from the scheduled appointment date and prediction cutoff.
+dna_target,int64,0,0.0,Exclude,Target outcome; never include as a predictor.
+booking_notice_group,str,0,0.0,Candidate - source confirmation required,"Derived from booking lead time and known at the prediction cutoff, subject to source validation."

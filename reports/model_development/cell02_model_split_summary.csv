@@ -1,0 +1,4 @@
+split,appointments,attended,dna_cases,dna_rate_percent
+train,24612,22382,2230,9.06
+validation,4773,4338,435,9.11
+test,5488,4964,524,9.55

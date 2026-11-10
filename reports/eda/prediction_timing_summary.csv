@@ -1,0 +1,3 @@
+prediction_group,appointments,dna_count,dna_rate,dna_rate_percent
+7 days before appointment,33567,3111,0.09268031101975154,9.27
+At booking (<7 days notice),2697,195,0.07230255839822025,7.23

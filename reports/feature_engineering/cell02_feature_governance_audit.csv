@@ -1,0 +1,26 @@
+feature,data_type,missing_count,missing_percent,governance_status,reason
+appointment_id,str,0,0.0,Metadata,Appointment tracking only.
+patient_id,str,0,0.0,Metadata,Patient grouping and evaluation only.
+age,float64,48,0.13,Provisional,Potentially known before appointment.
+sex,str,0,0.0,Conditional,Retain for fairness; predictive use requires separate justification.
+imd_decile,float64,1265,3.49,Conditional,Retain for deprivation fairness analysis; predictive use requires justification.
+ethnic_group,str,0,0.0,Conditional,Retain for fairness; predictive use requires separate justification.
+distance_km,float64,362,1.0,Provisional,Verify the distance was calculable using information available at cutoff.
+interpreter_required,str,0,0.0,Provisional,Verify the requirement was recorded before prediction.
+long_term_conditions,int64,0,0.0,Provisional,Verify condition counts reflect information known at prediction.
+specialty,str,0,0.0,Provisional,Verify specialty at cutoff.
+appointment_type,str,0,0.0,Provisional,Verify appointment type at cutoff.
+consultation_mode,str,0,0.0,Provisional,Verify consultation mode at cutoff.
+referral_source,str,0,0.0,Provisional,Verify referral source at cutoff.
+appointment_datetime,datetime64[us],0,0.0,Metadata,Used to construct appointment features.
+booked_datetime,datetime64[us],0,0.0,Metadata,Used to construct timing features.
+rescheduled_count,int64,0,0.0,Conditional,Rescheduling may occur after cutoff.
+sms_reminder_sent,str,0,0.0,Exclude,Reminder status may reflect a later intervention and its timing is unverified.
+previous_dnas_12m,int64,0,0.0,Conditional,Historical events may extend beyond cutoff.
+attendance_status,str,0,0.0,Exclude,Actual attendance outcome.
+clinic_checkin_time,datetime64[us],3306,9.12,Exclude,Post-prediction attendance information.
+booking_lead_days,float64,0,0.0,Provisional,Derived from booking and appointment dates; verify appointment date at cutoff.
+prediction_cutoff_datetime,datetime64[us],0,0.0,Metadata,Defines the information availability cutoff.
+days_until_appointment_at_prediction,float64,0,0.0,Provisional,Derived from appointment and cutoff dates.
+dna_target,int64,0,0.0,Target,Prediction outcome; never an input feature.
+booking_notice_group,str,0,0.0,Provisional,Derived from booking lead time.

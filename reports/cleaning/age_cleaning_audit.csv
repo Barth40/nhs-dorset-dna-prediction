@@ -1,0 +1,55 @@
+appointment_id,patient_id,original_age,attendance_status,cleaned_age,cleaning_action,reason
+OPA2029740,P108262,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2025852,P101313,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2011607,P105638,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2033313,P109731,999,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2022893,P102698,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2021020,P103686,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2005193,P102854,-1,Cancelled by patient,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2007876,P107902,999,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2028687,P107032,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2025705,P118674,999,DNA,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2006812,P113739,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2022028,P109307,150,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2014960,P102857,-1,Cancelled by patient,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2005871,P122563,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2016221,P123483,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2029709,P109066,999,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2018208,P104906,-1,Cancelled by hospital,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2010583,P122134,999,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2005423,P104804,121,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2017680,P122774,-1,DNA,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2030487,P108259,999,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2028842,P119246,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2027460,P112877,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2021911,P108606,150,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2035210,P121146,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2022412,P121850,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2036312,P115828,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2024415,P103073,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2008290,P105926,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2022435,P102589,150,DNA,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2027363,P110701,121,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2013235,P102729,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2008452,P104534,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2031431,P121926,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2039951,P113076,150,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2028790,P115930,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2003711,P109218,121,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2025674,P100979,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2003909,P118455,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2020696,P104858,999,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2000336,P104643,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2013339,P121477,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2026612,P118478,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2005014,P119318,-1,Cancelled by patient,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2033561,P114062,999,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2005604,P112091,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2006936,P122921,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2009330,P101146,-1,Cancelled by hospital,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2001597,P107247,150,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2021496,P118455,150,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2023601,P123054,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2008833,P106432,150,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2017321,P105054,121,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120
+OPA2013109,P115414,-1,Attended,,Replaced with NaN,Age outside the accepted project range of 0 to 120

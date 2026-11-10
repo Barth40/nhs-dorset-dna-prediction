@@ -1,0 +1,21 @@
+Column,Data Type,Non-Null Count,Missing Count,Missing Percentage,Unique Values
+appointment_id,str,40180,0,0.0,40000
+patient_id,str,40180,0,0.0,15458
+age,int64,40180,0,0.0,106
+sex,str,40180,0,0.0,7
+imd_decile,float64,38770,1410,3.51,10
+ethnic_group,str,40180,0,0.0,6
+distance_km,float64,39777,403,1.0,349
+interpreter_required,str,40180,0,0.0,2
+long_term_conditions,int64,40180,0,0.0,9
+specialty,str,40180,0,0.0,9
+appointment_type,str,40180,0,0.0,2
+consultation_mode,str,40180,0,0.0,3
+referral_source,str,40180,0,0.0,4
+appointment_datetime,str,40180,0,0.0,4427
+booked_datetime,str,40180,0,0.0,36972
+rescheduled_count,int64,40180,0,0.0,4
+sms_reminder_sent,str,40180,0,0.0,2
+previous_dnas_12m,int64,40180,0,0.0,8
+attendance_status,str,40180,0,0.0,4
+clinic_checkin_time,str,33194,6986,17.39,520

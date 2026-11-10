@@ -1,0 +1,16 @@
+feature,train_dtype,validation_dtype,test_dtype
+age,float64,float64,float64
+age_missing_flag,int64,int64,int64
+distance_km,float64,float64,float64
+distance_missing_flag,int64,int64,int64
+long_term_conditions,int64,int64,int64
+interpreter_required,str,str,str
+specialty,str,str,str
+appointment_type,str,str,str
+consultation_mode,str,str,str
+referral_source,str,str,str
+booking_lead_days_exact,float64,float64,float64
+is_short_notice,int64,int64,int64
+appointment_day_of_week,int64,int64,int64
+appointment_month,int64,int64,int64
+appointment_hour,int64,int64,int64

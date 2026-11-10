@@ -1,0 +1,5 @@
+feature,audit_status,manual_review_required
+previous_dnas_12m,Conditional - verification required,True
+attendance_status,Exclude,True
+clinic_checkin_time,Exclude,True
+dna_target,Exclude,True

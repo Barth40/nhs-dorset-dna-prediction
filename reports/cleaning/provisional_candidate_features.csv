@@ -1,0 +1,13 @@
+candidate_predictor
+age
+sex
+imd_decile
+ethnic_group
+distance_km
+interpreter_required
+long_term_conditions
+specialty
+appointment_type
+consultation_mode
+referral_source
+booking_lead_days

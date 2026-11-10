@@ -1,0 +1,7 @@
+feature,concern,action
+previous_dnas_12m,Historical count may include attendance events occurring after prediction cutoff.,"Reconstruct using only completed appointments before the cutoff, or exclude if unverifiable."
+rescheduled_count,Recorded count may include rescheduling events after the prediction cutoff.,Verify event history and cutoff timing before modelling.
+sms_reminder_sent,Reminder may have been sent after the prediction cutoff.,Exclude unless reminder timestamp confirms earlier availability.
+clinic_checkin_time,Check-in information occurs at or after appointment attendance.,Exclude from predictive features.
+distance_km,Distance may depend on information updated after booking.,Verify source information was available at prediction cutoff.
+long_term_conditions,Recorded condition count may include later diagnoses.,Use a historical snapshot or verify point-in-time availability.

@@ -1,0 +1,11 @@
+Data Issue,Proposed Action,Reason,Status
+Exact duplicate records,Remove exact duplicates from cleaned master dataset,Avoid counting the same appointment more than once,Proposed - not applied
+Cancelled appointments,Retain in master dataset; exclude from binary model training,Cancellations are different outcomes from DNA,Proposed - not applied
+Invalid ages,Investigate; treat confirmed invalid values as missing,Invalid ages may distort analysis and predictions,Proposed - not applied
+Inconsistent sex categories,Standardise equivalent category labels,Equivalent labels should represent the same category,Proposed - not applied
+Specialty spelling inconsistencies,Correct confirmed spelling inconsistencies,Spelling errors create artificial categories,Proposed - not applied
+Missing IMD decile,Retain records; assess missingness and suitable imputation,Avoid unnecessary loss of patient records,Proposed - not applied
+Missing travel distance,Retain records; assess missingness and suitable imputation,Avoid unnecessary loss of patient records,Proposed - not applied
+Negative booking lead time,Investigate chronology before deciding whether to exclude,Booking after appointment may indicate a data error,Proposed - not applied
+Very long booking lead time,Retain initially; investigate extreme values,Long waiting times may be valid and predictive,Proposed - not applied
+Clinic check-in time,Exclude from model predictors,Check-in information is unavailable before attendance,Proposed - not applied

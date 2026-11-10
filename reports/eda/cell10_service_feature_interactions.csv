@@ -1,0 +1,7 @@
+appointment_type,consultation_mode,appointments,dna_count,dna_rate_percent,small_sample_flag
+Follow-up,Face-to-face,18078,1592,8.81,False
+Follow-up,Telephone,3561,220,6.18,False
+Follow-up,Video,900,65,7.22,False
+New,Face-to-face,10982,1190,10.84,False
+New,Telephone,2147,181,8.43,False
+New,Video,596,58,9.73,False

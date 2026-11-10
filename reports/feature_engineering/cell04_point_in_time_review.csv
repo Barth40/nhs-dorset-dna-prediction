@@ -1,0 +1,7 @@
+feature_area,requirement,status
+Age and age groups,Confirm age was calculated using information available at prediction.,Provisional
+Travel distance,Verify address and clinic location were known at prediction.,Provisional
+Long-term conditions,Confirm condition counts represent information available at cutoff.,Provisional
+Appointment interactions,"Verify appointment type, mode and specialty were known at cutoff.",Provisional
+Fairness attributes,Retain separately for fairness evaluation.,Separate audit
+Historical attendance,Exclude until point-in-time reconstruction is possible.,Restricted

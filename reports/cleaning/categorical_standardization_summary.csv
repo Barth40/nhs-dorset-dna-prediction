@@ -1,0 +1,3 @@
+column,action,values_changed,reason
+sex,Standardize sex categories,1300,Different representations of the same sex category should be treated consistently.
+specialty,Correct known specialty spelling errors,8369,Correct misspellings to avoid creating artificially separate specialty categories.

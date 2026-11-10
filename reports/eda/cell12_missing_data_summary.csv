@@ -1,0 +1,5 @@
+feature,missing_count,missing_percent
+clinic_checkin_time,36264,100.0
+imd_decile,1265,3.49
+distance_km,362,1.0
+age,48,0.13

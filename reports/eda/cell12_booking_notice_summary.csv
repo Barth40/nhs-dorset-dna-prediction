@@ -1,0 +1,3 @@
+eda_notice_group,appointments,dna_count,dna_rate_percent,difference_from_overall_pp,group_size_flag
+Long notice (7+ days),33567,3111,9.27,0.15,100+ appointments
+Short notice (<7 days),2697,195,7.23,-1.89,100+ appointments

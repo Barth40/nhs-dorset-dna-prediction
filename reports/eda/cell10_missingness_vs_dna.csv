@@ -1,0 +1,4 @@
+feature,missing_count,observed_count,missing_dna_count,observed_dna_count,missing_dna_rate_percent,observed_dna_rate_percent,rate_difference_pp
+imd_decile,1265,34999,105,3201,8.3,9.15,-0.85
+distance_km,362,35902,28,3278,7.73,9.13,-1.4
+age,48,36216,3,3303,6.25,9.12,-2.87

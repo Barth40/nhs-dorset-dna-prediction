@@ -1,0 +1,4 @@
+baseline,metric,value,value_percent
+Always predict Attended,Accuracy,0.9088352084712111,90.88
+Always predict Attended,DNA recall,0.0,0.0
+Random ranking,Expected average precision,0.09116479152878888,9.12

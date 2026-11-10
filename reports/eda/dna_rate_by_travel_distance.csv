@@ -1,0 +1,7 @@
+distance_band,appointments,dna_count,attended_count,dna_rate_percent
+0–<5 km,11607,968,10639,8.34
+5–<10 km,13372,1221,12151,9.13
+10–<20 km,9331,922,8409,9.88
+20–<40 km,1580,166,1414,10.51
+40+ km,12,1,11,8.33
+Missing distance,362,28,334,7.73

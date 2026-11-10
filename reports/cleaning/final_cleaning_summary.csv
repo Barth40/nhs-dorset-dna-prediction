@@ -1,0 +1,13 @@
+check,value
+Original records,40180.0
+Exact duplicate records removed,180.0
+Cleaned master records,40000.0
+Invalid ages remaining,0.0
+Missing ages retained,54.0
+Negative booking lead times remaining,0.0
+Invalid booking lead times marked missing,110.0
+Provisional modeling records,33567.0
+Modeling DNA cases,3111.0
+Modeling attended cases,30456.0
+Modeling DNA rate percentage,9.27
+Candidate predictor count,12.0

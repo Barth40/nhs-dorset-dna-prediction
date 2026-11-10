@@ -1,0 +1,8 @@
+eda_age_group,appointments,dna_count,dna_rate_percent,difference_from_overall_pp,group_size_flag
+18-29,4067,526,12.93,3.81,100+ appointments
+30-44,5067,528,10.42,1.3,100+ appointments
+Under 18,4416,458,10.37,1.25,100+ appointments
+75+,8399,730,8.69,-0.43,100+ appointments
+45-59,5192,449,8.65,-0.47,100+ appointments
+60-74,9075,612,6.74,-2.38,100+ appointments
+,48,3,6.25,-2.87,Small group - interpret cautiously

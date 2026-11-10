@@ -1,0 +1,8 @@
+feature,training_median,train_missing_before,validation_missing_before,test_missing_before
+age,58.0,37,5,6
+age_missing_flag,0.0,0,0,0
+distance_km,7.0,229,56,64
+distance_missing_flag,0.0,0,0,0
+long_term_conditions,1.0,0,0,0
+booking_lead_days_exact,36.20243055555556,0,0,0
+is_short_notice,0.0,0,0,0

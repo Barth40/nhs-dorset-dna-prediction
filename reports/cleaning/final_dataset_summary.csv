@@ -1,0 +1,7 @@
+dataset,appointments,description
+Original raw dataset,40180,Unmodified source dataset
+Cleaned master dataset,40000,All unique appointments after cleaning
+Binary modelling dataset,36264,Eligible Attended and DNA appointments with valid booking and prediction timestamps
+Modelling Attended appointments,32958,Negative class
+Modelling DNA appointments,3306,Positive class
+Short-notice modelling appointments,2697,Predicted at booking

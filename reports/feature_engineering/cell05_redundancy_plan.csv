@@ -1,0 +1,9 @@
+feature_group,preferred_feature,review_or_remove,reason
+Booking lead time,booking_lead_days_exact,"booking_lead_days, booking_lead_log1p, booking_lead_band",Alternative representations of the same booking interval.
+Notice classification,is_short_notice,"booking_notice_group, days_until_appointment_at_prediction, prediction_notice_days_exact",Closely related to the prediction timing rule.
+Appointment weekday,appointment_day_of_week,appointment_is_weekend,Weekend status is determined by day of week.
+Appointment time,appointment_hour,"appointment_minute, appointment_time_decimal, appointment_period",Overlapping representations of appointment time.
+Age,age,age_group,Age group is derived from age.
+Travel distance,distance_km,"distance_log1p, distance_band",Alternative transformations of travel distance.
+Long-term conditions,long_term_conditions,"has_long_term_condition, multiple_long_term_conditions, condition_group",Derived from the same condition count.
+Appointment interactions,"appointment_type, consultation_mode, specialty, appointment_hour","type_mode_combination, specialty_mode_combination, mode_period_combination",Interaction terms may increase cardinality and complexity.

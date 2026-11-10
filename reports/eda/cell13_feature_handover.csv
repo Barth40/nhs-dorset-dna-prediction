@@ -1,0 +1,11 @@
+area,decision,next_action
+Prediction timing,Use booking time for short notice and seven days before appointment otherwise.,Apply the same cutoff consistently during feature construction.
+Booking features,Appointment characteristics and booking lead time are provisional candidates.,Verify source values reflect the prediction cutoff.
+Historical DNA counts,Potentially useful but not verified as point-in-time safe.,Reconstruct from historical events or exclude.
+Rescheduling history,Potentially useful but may include future events.,Verify event timestamps or exclude.
+SMS reminder status,Excluded from the initial model.,Use only if reminder timing can be verified against the cutoff.
+Missing values,"Retain eligible appointments with missing age, IMD or distance.",Fit imputers on training data only.
+Identifiers,Appointment and patient identifiers are not predictive inputs.,Retain identifiers separately for tracking and evaluation.
+Sensitive attributes,Retain appropriate attributes for fairness assessment.,Justify any predictive use separately.
+Data splitting,Use a chronological evaluation design.,Choose split boundaries and account for outcome availability and repeated patients.
+Weekly intervention,Identify up to 150 eligible appointments for patient contact.,"Evaluate calibrated top-150 risk, capacity, fairness and intervention effect."

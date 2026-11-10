@@ -1,0 +1,9 @@
+lead_time_group,Total_Appointments,DNA_Count,DNA_Rate_Percentage
+Negative lead time,100,10,10.0
+0-7 days,2697,195,7.23
+7-14 days,3788,310,8.18
+14-30 days,8643,657,7.6
+30-60 days,11308,1020,9.02
+60-90 days,5568,556,9.99
+90-180 days,3950,508,12.86
+Over 180 days,310,60,19.35

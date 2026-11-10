@@ -1,0 +1,4 @@
+model,configuration,parameters,mean_cv_pr_auc,std_cv_pr_auc,mean_cv_roc_auc,mean_cv_brier
+Logistic Regression,1,"{'C': 0.1, 'class_weight': None}",0.12383932408825123,0.004255241052173373,0.5957096424956981,0.07839919958992288
+Random Forest,7,"{'class_weight': 'balanced', 'max_depth': 12, 'min_samples_leaf': 5}",0.12194901939051794,0.0067332240150251455,0.59193011549574,0.20320428303595892
+XGBoost,1,"{'learning_rate': 0.03, 'max_depth': 2, 'use_class_weight': False}",0.12079028757596133,0.004631803487495332,0.6003629819520097,0.07840730746587117

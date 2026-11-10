@@ -1,0 +1,7 @@
+feature,non_missing_count,missing_count,unique_values
+age,36216,48,102
+booking_lead_days,36264,0,29591
+previous_dnas_12m,36264,0,8
+rescheduled_count,36264,0,4
+distance_km,35902,362,348
+long_term_conditions,36264,0,9

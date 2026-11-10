@@ -1,0 +1,12 @@
+Issue,Count
+Exact duplicate rows in original data,180
+Negative ages,35
+Ages above 110,25
+Missing IMD decile,1400
+Missing travel distance,400
+Negative travel distance,0
+Invalid appointment dates,0
+Invalid booking dates,0
+Negative booking lead time,110
+Booking lead time above 180 days,338
+Missing clinic check-in time,6952

@@ -1,0 +1,23 @@
+column,category,preliminary_decision,reason
+appointment_id,Identifier,Exclude as direct predictor,"Used for record identification, patient grouping and leakage-safe validation"
+patient_id,Identifier,Exclude as direct predictor,"Used for record identification, patient grouping and leakage-safe validation"
+age,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+sex,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+imd_decile,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+ethnic_group,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+distance_km,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+interpreter_required,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+long_term_conditions,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+specialty,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+appointment_type,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+consultation_mode,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+referral_source,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+appointment_datetime,Datetime / validation,Use for time-aware processing,Useful for chronological splitting and pre-appointment feature engineering
+booked_datetime,Datetime / validation,Use for time-aware processing,Useful for chronological splitting and pre-appointment feature engineering
+rescheduled_count,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+sms_reminder_sent,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+previous_dnas_12m,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+attendance_status,Target,Exclude from predictors,Outcome being predicted
+clinic_checkin_time,Known target leakage,Exclude from predictors,Information becomes available at or after patient arrival
+booking_lead_days,Candidate predictor,Review for prediction-time availability,"Potentially useful, but must be known before the weekly outreach decision"
+invalid_booking_lead_flag,Data quality audit,Exclude initially,Flag records invalid booking chronology; prediction-time availability needs review

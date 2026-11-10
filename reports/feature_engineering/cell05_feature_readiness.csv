@@ -1,0 +1,8 @@
+area,status,requirement
+Appointment calendar and time,Provisional,Confirm appointment schedule as it existed at prediction cutoff.
+Patient characteristics,Provisional,"Confirm age, distance, interpreter and condition information at cutoff."
+Historical DNA and rescheduling,Restricted,Reconstruct from historical events or exclude.
+SMS reminders,Excluded,Do not use without verified pre-cutoff intervention timing.
+Fairness attributes,Separate audit,Retain for subgroup evaluation.
+Feature redundancy,Baseline prepared,Compare compact and expanded feature sets on held-out data.
+Chronological splitting,Pending,"Split before fitting imputation, encoding or model selection."

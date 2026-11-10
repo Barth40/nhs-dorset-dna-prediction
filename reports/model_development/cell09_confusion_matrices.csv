@@ -1,0 +1,5 @@
+model,threshold_type,threshold,TN,FP,FN,TP
+XGBoost - Tuned,Default 0.50,0.5,4964,0,524,0
+XGBoost - Tuned,Validation-selected F1,0.09998757392168045,3575,1389,311,213
+Logistic Regression - Baseline,Default 0.50,0.5,4964,0,524,0
+Logistic Regression - Baseline,Validation-selected F1,0.11647974467460284,3829,1135,340,184

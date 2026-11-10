@@ -1,0 +1,62 @@
+
+NHS DORSET - OUTPATIENT DNA PREDICTION
+FINAL EXPLORATORY DATA ANALYSIS HANDOVER
+
+1. MODELLING POPULATION
+Eligible appointments: 36,264
+Attended appointments: 32,958
+Missed appointments: 3,306
+Observed DNA rate: 9.12%
+
+2. DATA CLEANING
+Exact duplicates removed: 180.
+Invalid ages were converted to missing values.
+Categorical inconsistencies were standardised.
+Cancellations and invalid booking chronologies
+were excluded from the binary modelling cohort.
+
+3. PREDICTION TIMING
+Short-notice appointments: predict at booking.
+Long-notice appointments: predict seven days
+before the appointment.
+
+4. DATA QUALITY
+Missing age, IMD and distance values are retained.
+Imputation must be fitted on training data only.
+
+5. LEAKAGE SAFEGUARDS
+Exclude outcome variables, identifiers and
+clinic check-in information from model inputs.
+Historical DNA counts, rescheduling history and
+SMS reminders require point-in-time verification.
+
+6. FEATURE ENGINEERING
+Confirm source availability before approving features.
+Develop calendar and appointment features using
+information available at the prediction cutoff.
+
+7. MODEL EVALUATION
+Use chronological training, validation and testing.
+Prevent preprocessing leakage.
+Consider repeated patients and delayed outcome labels.
+Assess discrimination, calibration and top-150 utility.
+
+8. FAIRNESS
+Evaluate age, sex, ethnic group and deprivation
+subgroups where appropriate.
+Report subgroup sample sizes and uncertainty.
+
+9. OPERATIONAL APPLICATION
+Select up to 150 eligible appointments weekly.
+Estimate expected DNAs using calibrated probabilities.
+Estimate prevented DNAs using a justified intervention
+effect assumption or measured pilot results.
+
+10. FINAL VALIDATION
+Critical validation failures: 0
+Non-critical validation failures: 0
+
+11. NEXT STAGE
+Proceed to feature engineering only after resolving
+any critical validation failures.
+Historical features remain restricted until verified.

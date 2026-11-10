@@ -1,0 +1,9 @@
+priority,area,recommendation,reason
+1,Prospective validation,Run the model prospectively in shadow mode before using its rankings to direct outreach.,Retrospective performance does not establish prospective clinical or operational benefit.
+2,Data availability,Generate predictions using only information available when the weekly calling list is created.,Avoid look-ahead bias and ensure patients are genuinely eligible for contact.
+3,Fairness,"Monitor recall, selection rates and outcomes by age, sex, ethnicity and deprivation.",The fairness audit identified substantial age-related performance differences.
+4,Human oversight,Allow clinic staff to review and amend the proposed weekly calling list.,The model has modest discrimination and cannot account for every patient circumstance.
+5,Privacy and security,"Apply UK GDPR, role-based access, data minimization, secure storage and audit logs.",Patient-level predictions and contact details require appropriate information governance.
+6,Operational monitoring,"Track list generation, contact attempts, successful calls, attendance and model drift.",The clinic needs to know whether the intervention is functioning and remains useful.
+7,Impact evaluation,"Use an ethically approved controlled pilot, such as randomized outreach where appropriate.",A comparison group is needed to estimate the actual effect of telephone calls.
+8,Model maintenance,"Review performance and recalibration periodically, with documented approval before any model changes.","Patient behavior, booking processes and DNA prevalence may change over time."

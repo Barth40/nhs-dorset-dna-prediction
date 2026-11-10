@@ -1,0 +1,8 @@
+Column,Consideration
+attendance_status,"Target outcome, not a predictor"
+clinic_checkin_time,Recorded at/after arrival; exclude
+appointment_id,"Identifier, not a predictive feature"
+patient_id,"Use for grouping/splitting, not raw feature"
+sms_reminder_sent,Check whether known at prediction time
+previous_dnas_12m,Ensure history predates appointment
+rescheduled_count,Ensure count was known at prediction time

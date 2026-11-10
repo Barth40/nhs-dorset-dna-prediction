@@ -1,0 +1,15 @@
+feature,unique_categories,rare_categories_under_50,missing_count
+specialty_mode_combination,27,0,0
+specialty,9,0,0
+booking_lead_band,7,0,0
+age_group,7,1,0
+distance_band,6,1,0
+mode_period_combination,6,0,0
+type_mode_combination,6,0,0
+referral_source,4,0,0
+condition_group,4,1,0
+consultation_mode,3,0,0
+booking_notice_group,2,0,0
+appointment_type,2,0,0
+interpreter_required,2,0,0
+appointment_period,2,0,0

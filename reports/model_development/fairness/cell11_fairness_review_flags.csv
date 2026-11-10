@@ -1,0 +1,15 @@
+characteristic,group,appointments,actual_dnas,review_reasons
+Age,18-34,902,117,Higher false-positive rate than comparison group
+Age,35-49,795,93,Lower recall than comparison group; Lower outreach_dna_recall than comparison group; Higher false-positive rate than comparison group
+Age,50-64,797,70,Lower recall than comparison group; Lower outreach_dna_recall than comparison group; Higher false-positive rate than comparison group
+Age,65-79,1581,104,Lower recall than comparison group; Lower outreach_dna_recall than comparison group
+Age,80+,766,78,Lower recall than comparison group; Lower outreach_dna_recall than comparison group; Higher false-positive rate than comparison group
+Age,Missing/Invalid,6,0,Small sample or too few outcome events
+Age,Under 18,641,62,Higher false-positive rate than comparison group
+Deprivation,Missing/Invalid,182,16,Small sample or too few outcome events
+Ethnicity,Asian or Asian British,650,74,Lower recall than comparison group; Lower outreach_dna_recall than comparison group
+Ethnicity,Black or Black British,300,42,Higher false-positive rate than comparison group
+Ethnicity,Mixed,179,12,Small sample or too few outcome events
+Ethnicity,Other ethnic group,136,17,Small sample or too few outcome events
+Ethnicity,White,4020,357,Lower recall than comparison group; Lower outreach_dna_recall than comparison group
+Sex,Missing/Unknown,20,2,Small sample or too few outcome events

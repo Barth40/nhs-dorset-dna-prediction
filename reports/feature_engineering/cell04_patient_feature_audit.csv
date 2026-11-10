@@ -1,0 +1,12 @@
+feature,data_type,missing_count,unique_values
+age_group,category,0,7
+age_missing_flag,int64,0,2
+distance_log1p,float64,362,348
+distance_missing_flag,int64,0,2
+distance_band,category,0,6
+has_long_term_condition,Int64,0,2
+multiple_long_term_conditions,Int64,0,2
+condition_group,category,0,4
+type_mode_combination,string,0,6
+specialty_mode_combination,string,0,27
+mode_period_combination,string,0,6

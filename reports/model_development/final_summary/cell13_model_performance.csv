@@ -1,0 +1,2 @@
+model,test_appointments,test_dnas,dna_prevalence,roc_auc,pr_auc,brier_score,log_loss,mean_predicted_risk
+XGBoost - Tuned,5488,524,0.09548104956268222,0.6041625658942862,0.13281517974853124,0.08543703705072403,0.30952516198158264,0.09036003798246384

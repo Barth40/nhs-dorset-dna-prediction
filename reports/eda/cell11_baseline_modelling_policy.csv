@@ -1,0 +1,8 @@
+feature_group,recommendation
+Appointment and booking information,Consider after confirming source values reflect the prediction cutoff.
+Patient characteristics,"Assess availability, data quality, necessity and fairness."
+Historical attendance and rescheduling,Exclude until point-in-time historical values can be verified or reconstructed.
+SMS reminder status,Exclude unless reminder timing is verified.
+Identifiers and outcomes,Exclude from direct predictive inputs.
+Raw date and time columns,Use for chronological splitting and safe calendar feature derivation.
+Ethnic group and fairness attributes,Retain for fairness analysis; separately justify any predictive use.

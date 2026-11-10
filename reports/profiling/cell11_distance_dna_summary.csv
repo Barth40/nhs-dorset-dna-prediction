@@ -1,0 +1,6 @@
+distance_group,Appointments,DNAs,DNA_Rate_Percent
+0-5 km,11956,998,8.35
+>5-10 km,13288,1214,9.14
+>10-20 km,9194,913,9.93
+>20-50 km,1563,163,10.43
+Missing,363,28,7.71

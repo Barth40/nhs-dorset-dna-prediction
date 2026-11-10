@@ -1,0 +1,4 @@
+consultation_mode,appointments,dna_count,dna_rate_percent,difference_from_overall_pp,group_size_flag
+Face-to-face,29060,2782,9.57,0.45,100+ appointments
+Video,1496,123,8.22,-0.9,100+ appointments
+Telephone,5708,401,7.03,-2.09,100+ appointments

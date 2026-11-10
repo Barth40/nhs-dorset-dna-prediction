@@ -1,0 +1,9 @@
+feature_1,feature_2,spearman_correlation,absolute_correlation
+distance_km,distance_log1p,1.0,1.0
+booking_lead_days,booking_lead_days_exact,1.0,1.0
+booking_lead_days,booking_lead_log1p,1.0,1.0
+days_until_appointment_at_prediction,prediction_notice_days_exact,1.0,1.0
+booking_lead_days_exact,booking_lead_log1p,1.0,1.0
+days_until_appointment_at_prediction,is_short_notice,-0.999,0.999
+prediction_notice_days_exact,is_short_notice,-0.999,0.999
+appointment_hour,appointment_time_decimal,0.9951,0.9951

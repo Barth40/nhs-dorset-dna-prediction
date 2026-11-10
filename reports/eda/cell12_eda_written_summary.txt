@@ -1,0 +1,68 @@
+
+NHS DORSET - OUTPATIENT DNA PREDICTION
+EXPLORATORY DATA ANALYSIS SUMMARY
+
+1. OBJECTIVE
+Explore outpatient attendance patterns and identify
+potentially useful, leakage-safe predictors of missed
+appointments (DNA).
+
+2. MODELLING POPULATION
+Eligible appointments: 36,264
+Attended: 32,958
+DNA: 3,306
+Overall DNA rate: 9.12%
+
+3. BOOKING PATTERNS
+Short-notice DNA rate: 7.23%
+Long-notice DNA rate: 9.27%
+
+These are observational differences, not evidence
+that booking lead time causes missed appointments.
+
+4. PATIENT AND APPOINTMENT CHARACTERISTICS
+Exploratory analysis examined age, sex, ethnic group,
+deprivation, specialty, appointment type, consultation
+mode, referral source, and other recorded variables.
+
+Group differences should be interpreted alongside
+sample sizes and data-quality limitations.
+
+5. HISTORICAL ATTENDANCE
+Previous DNA history and rescheduling were examined.
+Their use in prediction remains restricted until
+historical values can be verified at the cutoff.
+
+6. MISSING DATA
+Missingness was identified in age, deprivation,
+distance and clinic check-in information.
+Preprocessing must be fitted using training data only.
+Clinic check-in information is excluded.
+
+7. DATA LEAKAGE
+Prediction timing was validated in Cell 11.
+Identifiers, outcome fields and post-outcome
+information must not be used as predictors.
+
+8. FAIRNESS
+Evaluate model performance and selection rates
+across relevant patient groups, including age,
+sex, ethnic group and deprivation.
+Small groups require cautious interpretation.
+
+9. MODEL DEVELOPMENT
+Use chronological evaluation, leakage-safe feature
+engineering, training-only preprocessing, and
+appropriate classification and calibration metrics.
+
+10. WEEKLY INTERVENTION
+The operational goal is to identify up to 150
+patients per week for additional contact.
+Estimated prevented DNAs require a justified
+intervention-effect assumption or pilot evidence.
+
+CONCLUSION
+EDA has identified potentially useful associations
+and documented data-quality and leakage risks.
+No causal effects or predictive performance claims
+can be established from EDA alone.

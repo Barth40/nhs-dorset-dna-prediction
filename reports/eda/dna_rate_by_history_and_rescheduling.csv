@@ -1,0 +1,17 @@
+previous_dna_group,reschedule_group,appointments,dna_count,attended_count,dna_rate_percent
+0 previous DNAs,Never rescheduled,20913,1437,19476,6.87
+0 previous DNAs,Rescheduled 3+ times,542,63,479,11.62
+0 previous DNAs,Rescheduled once,5185,437,4748,8.43
+0 previous DNAs,Rescheduled twice,1678,146,1532,8.7
+1 previous DNA,Never rescheduled,4793,601,4192,12.54
+1 previous DNA,Rescheduled 3+ times,118,17,101,14.41
+1 previous DNA,Rescheduled once,1187,151,1036,12.72
+1 previous DNA,Rescheduled twice,426,72,354,16.9
+2 previous DNAs,Never rescheduled,845,188,657,22.25
+2 previous DNAs,Rescheduled 3+ times,24,9,15,37.5
+2 previous DNAs,Rescheduled once,231,57,174,24.68
+2 previous DNAs,Rescheduled twice,67,18,49,26.87
+3+ previous DNAs,Never rescheduled,181,76,105,41.99
+3+ previous DNAs,Rescheduled 3+ times,4,1,3,25.0
+3+ previous DNAs,Rescheduled once,51,22,29,43.14
+3+ previous DNAs,Rescheduled twice,19,11,8,57.89

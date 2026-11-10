@@ -1,0 +1,4 @@
+sex,appointments,dna_count,dna_rate_percent,difference_from_overall_pp,group_size_flag
+Unknown,88,9,10.23,1.11,Small group - interpret cautiously
+Female,19157,1789,9.34,0.22,100+ appointments
+Male,17019,1508,8.86,-0.26,100+ appointments

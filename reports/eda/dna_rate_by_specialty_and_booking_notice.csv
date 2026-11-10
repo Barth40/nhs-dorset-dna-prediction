@@ -1,0 +1,19 @@
+specialty_eda,booking_notice_group,appointments,dna_count,dna_rate,dna_rate_percent
+Cardiology,Long notice (7+ days),3419,252,0.07370576191868967,7.37
+Cardiology,Short notice (<7 days),266,12,0.045112781954887216,4.51
+Dermatology,Long notice (7+ days),3640,334,0.09175824175824175,9.18
+Dermatology,Short notice (<7 days),278,24,0.08633093525179857,8.63
+Diabetes and Endocrinology,Long notice (7+ days),2789,313,0.1122266045177483,11.22
+Diabetes and Endocrinology,Short notice (<7 days),215,11,0.05116279069767442,5.12
+Gastroenterology,Long notice (7+ days),3041,270,0.0887865833607366,8.88
+Gastroenterology,Short notice (<7 days),273,25,0.09157509157509157,9.16
+Ophthalmology,Long notice (7+ days),3920,314,0.08010204081632653,8.01
+Ophthalmology,Short notice (<7 days),334,18,0.05389221556886228,5.39
+Paediatrics,Long notice (7+ days),2824,294,0.10410764872521247,10.41
+Paediatrics,Short notice (<7 days),243,20,0.0823045267489712,8.23
+Physiotherapy,Long notice (7+ days),3764,423,0.11238044633368757,11.24
+Physiotherapy,Short notice (<7 days),276,23,0.08333333333333333,8.33
+Respiratory Medicine,Long notice (7+ days),2729,268,0.09820447050201539,9.82
+Respiratory Medicine,Short notice (<7 days),233,18,0.07725321888412018,7.73
+Trauma and Orthopaedics,Long notice (7+ days),7441,643,0.08641311651659724,8.64
+Trauma and Orthopaedics,Short notice (<7 days),579,44,0.07599309153713299,7.6

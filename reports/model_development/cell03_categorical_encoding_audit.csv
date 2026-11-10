@@ -1,0 +1,9 @@
+feature,training_category_count,training_categories
+interpreter_required,2,"N, Y"
+specialty,9,"Cardiology, Dermatology, Diabetes and Endocrinology, Gastroenterology, Ophthalmology, Paediatrics, Physiotherapy, Respiratory Medicine, Trauma and Orthopaedics"
+appointment_type,2,"Follow-up, New"
+consultation_mode,3,"Face-to-face, Telephone, Video"
+referral_source,4,"A&E, Consultant, GP, Other"
+appointment_day_of_week,5,"0, 1, 2, 3, 4"
+appointment_month,9,"10, 11, 12, 4, 5, 6, 7, 8, 9"
+appointment_hour,9,"10, 11, 12, 13, 14, 15, 16, 8, 9"

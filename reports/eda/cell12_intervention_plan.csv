@@ -1,0 +1,7 @@
+step,activity,requirement
+1,Identify eligible upcoming appointments,Use appointments eligible at the weekly decision cutoff.
+2,Generate predicted DNA probabilities,"Use a validated, leakage-safe model."
+3,Select up to 150 appointments,Rank eligible appointments while respecting operational and fairness rules.
+4,Estimate expected DNAs,Sum calibrated predicted probabilities for the selected appointments.
+5,Estimate potentially prevented DNAs,"Apply an explicitly stated, evidence-based or scenario-based intervention effect."
+6,Evaluate real-world outcomes,Compare outcomes using an appropriate pilot or controlled evaluation.

@@ -1,0 +1,10 @@
+specialty_eda,appointments,mean_lead_days,median_lead_days,minimum_lead_days,maximum_lead_days
+Physiotherapy,4040,47.14,37.01,0.07,294.92
+Trauma and Orthopaedics,8020,46.79,37.23,0.03,294.89
+Diabetes and Endocrinology,3004,46.39,37.13,0.02,299.79
+Gastroenterology,3314,46.36,35.8,0.03,300.13
+Paediatrics,3067,45.94,36.04,0.03,300.27
+Respiratory Medicine,2962,45.84,36.06,0.03,300.03
+Dermatology,3918,45.29,35.93,0.04,280.97
+Cardiology,3685,45.24,35.8,0.04,300.2
+Ophthalmology,4254,44.34,35.09,0.03,265.88

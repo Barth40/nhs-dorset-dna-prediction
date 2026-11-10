@@ -1,0 +1,9 @@
+feature,expected_status,actual_status,policy_check
+appointment_id,Exclude,Exclude,PASS
+patient_id,Exclude,Exclude,PASS
+dna_target,Exclude,Exclude,PASS
+attendance_status,Exclude,Exclude,PASS
+clinic_checkin_time,Exclude,Exclude,PASS
+sms_reminder_sent,Exclude,Exclude,PASS
+previous_dnas_12m,Conditional - verification required,Conditional - verification required,PASS
+rescheduled_count,Conditional - verification required,Conditional - verification required,PASS

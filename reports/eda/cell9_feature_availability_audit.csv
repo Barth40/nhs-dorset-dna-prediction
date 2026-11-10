@@ -1,0 +1,6 @@
+feature,availability_status,required_check,modelling_decision
+sms_reminder_sent,Not verified,Confirm SMS reminder timestamp is on or before the prediction cutoff.,Exclude until timing is verified.
+distance_km,Requires verification,Confirm distance was derived from patient and clinic information available at cutoff.,Potentially usable after validation.
+interpreter_required,Requires verification,Confirm interpreter requirement was recorded before the prediction cutoff.,Potentially usable after validation.
+long_term_conditions,Requires verification,Confirm the condition count reflects only diagnoses known at the prediction cutoff.,Potentially usable after validation.
+referral_source,Requires verification,Confirm referral source was known before the prediction cutoff.,Potentially usable after validation.

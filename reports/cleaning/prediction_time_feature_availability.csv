@@ -1,0 +1,7 @@
+feature,status,preliminary_decision,reason
+previous_dnas_12m,Unverified,Hold pending validation,Must be calculated using historical outcomes known by the prediction cutoff
+sms_reminder_sent,Unverified,Exclude initially,Reminder-send timestamp is unavailable; indicator may describe a future action
+rescheduled_count,Unverified,Hold pending validation,Must represent rescheduling events known before the prediction cutoff
+booking_lead_days,Conditional,Use only if eligible,Requires valid booking chronology and booking before the prediction cutoff
+clinic_checkin_time,Confirmed leakage,Exclude,Check-in occurs at or after arrival and reveals the attendance outcome
+invalid_booking_lead_flag,Audit only,Exclude initially,Invalid chronology may reflect post-appointment administrative updates

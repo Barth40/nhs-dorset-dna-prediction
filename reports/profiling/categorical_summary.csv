@@ -1,0 +1,15 @@
+,count,unique,top,freq
+appointment_id,40180,40000,OPA2018043,2
+patient_id,40180,15458,P100914,21
+sex,40180,7,Female,20514
+ethnic_group,40180,6,White,29275
+interpreter_required,40180,2,N,38494
+specialty,40180,9,Trauma and Orthopaedics,8849
+appointment_type,40180,2,Follow-up,25011
+consultation_mode,40180,3,Face-to-face,32220
+referral_source,40180,4,Consultant,27179
+appointment_datetime,40180,4427,08/12/2025 12:30,37
+booked_datetime,40180,36972,30/09/2025 10:19,4
+sms_reminder_sent,40180,2,Y,30566
+attendance_status,40180,4,Attended,33194
+clinic_checkin_time,33194,520,12:43,136

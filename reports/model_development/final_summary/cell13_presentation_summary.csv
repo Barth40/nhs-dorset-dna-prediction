@@ -1,0 +1,14 @@
+metric,value
+Selected model,XGBoost - Tuned
+Test appointments,5488
+Test DNAs,524
+Test ROC-AUC,0.6042
+Test PR-AUC,0.1328
+Weeks evaluated,9
+Patient-week calls selected,1350
+DNAs identified retrospectively,175
+Precision@150,12.96%
+Recall@150,37.47%
+Lift over random,1.37x
+Central estimated DNAs prevented/week,2.72
+Largest descriptive recall gap,Age: 63.28%

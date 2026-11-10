@@ -1,0 +1,12 @@
+imd_decile,appointments,dna_count,dna_rate_percent,difference_from_overall_pp,group_size_flag
+1.0,4935,607,12.3,3.18,100+ appointments
+3.0,4070,453,11.13,2.01,100+ appointments
+2.0,4462,450,10.09,0.97,100+ appointments
+4.0,3760,369,9.81,0.69,100+ appointments
+5.0,3586,304,8.48,-0.64,100+ appointments
+6.0,3410,284,8.33,-0.79,100+ appointments
+,1265,105,8.3,-0.82,100+ appointments
+7.0,3291,261,7.93,-1.19,100+ appointments
+9.0,2332,165,7.08,-2.04,100+ appointments
+8.0,2739,180,6.57,-2.55,100+ appointments
+10.0,2414,128,5.3,-3.82,100+ appointments

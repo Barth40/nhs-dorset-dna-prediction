@@ -1,0 +1,3 @@
+prediction_group,appointments,prediction_rule,valid_cutoffs,invalid_cutoffs
+Short notice (<7 days),2697,At booking,2697,0
+Long notice (7+ days),33567,7 days before appointment,33567,0

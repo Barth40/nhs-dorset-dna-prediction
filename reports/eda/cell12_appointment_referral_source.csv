@@ -1,0 +1,5 @@
+referral_source,appointments,dna_count,dna_rate_percent,difference_from_overall_pp,group_size_flag
+Other,1128,130,11.52,2.4,100+ appointments
+GP,9274,990,10.68,1.56,100+ appointments
+Consultant,24511,2079,8.48,-0.64,100+ appointments
+A&E,1351,107,7.92,-1.2,100+ appointments

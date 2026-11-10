@@ -1,0 +1,5 @@
+decision,appointments,percentage
+Included in provisional binary model,33567,83.92
+Cancelled or other non-binary outcome,3351,8.38
+Not booked by prediction cutoff,2972,7.43
+Invalid booking chronology,110,0.27

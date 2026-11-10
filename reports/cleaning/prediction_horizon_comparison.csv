@@ -1,0 +1,4 @@
+horizon_days,total_appointments,eligible_appointments,ineligible_appointments,eligible_percentage,eligible_binary_appointments,eligible_attended,eligible_dna,eligible_cancelled,eligible_binary_dna_rate_pct
+3,40000,38983,1017,97.46,35438,32198,3240,3545,9.14
+7,40000,36918,3082,92.3,33567,30456,3111,3351,9.27
+14,40000,32753,7247,81.88,29779,26978,2801,2974,9.41

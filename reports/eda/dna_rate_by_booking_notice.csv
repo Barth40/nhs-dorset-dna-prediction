@@ -1,0 +1,3 @@
+booking_notice_group,appointments,attended_count,dna_count,dna_rate_percent
+Short notice (<7 days),2697,2502,195,7.23
+Long notice (7+ days),33567,30456,3111,9.27

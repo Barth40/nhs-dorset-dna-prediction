@@ -1,0 +1,10 @@
+report,exists,path
+cell11_prediction_cutoff_audit.csv,True,c:\Users\User.DESKTOP-775\Documents\nhs-dorset-dna-prediction\reports\eda\cell11_prediction_cutoff_audit.csv
+cell11_feature_suitability_audit.csv,True,c:\Users\User.DESKTOP-775\Documents\nhs-dorset-dna-prediction\reports\eda\cell11_feature_suitability_audit.csv
+cell11_historical_leakage_review.csv,True,c:\Users\User.DESKTOP-775\Documents\nhs-dorset-dna-prediction\reports\eda\cell11_historical_leakage_review.csv
+cell12_population_summary.csv,True,c:\Users\User.DESKTOP-775\Documents\nhs-dorset-dna-prediction\reports\eda\cell12_population_summary.csv
+cell12_missing_data_summary.csv,True,c:\Users\User.DESKTOP-775\Documents\nhs-dorset-dna-prediction\reports\eda\cell12_missing_data_summary.csv
+cell12_modelling_implications.csv,True,c:\Users\User.DESKTOP-775\Documents\nhs-dorset-dna-prediction\reports\eda\cell12_modelling_implications.csv
+cell12_fairness_plan.csv,True,c:\Users\User.DESKTOP-775\Documents\nhs-dorset-dna-prediction\reports\eda\cell12_fairness_plan.csv
+cell12_intervention_plan.csv,True,c:\Users\User.DESKTOP-775\Documents\nhs-dorset-dna-prediction\reports\eda\cell12_intervention_plan.csv
+cell12_eda_written_summary.txt,True,c:\Users\User.DESKTOP-775\Documents\nhs-dorset-dna-prediction\reports\eda\cell12_eda_written_summary.txt

@@ -1,0 +1,4 @@
+feature,potential_leakage,required_evidence,decision
+previous_dnas_12m,Count may include attendance outcomes recorded after prediction cutoff.,Historical appointment events and outcomes known before the prediction cutoff.,Do not use until verified
+rescheduled_count,Count may include rescheduling events after prediction cutoff.,Timestamped rescheduling history restricted to the cutoff.,Do not use until verified
+sms_reminder_sent,Reminder may have been sent after the prediction cutoff.,Reminder event timestamp and status as of prediction cutoff.,Exclude unless verified

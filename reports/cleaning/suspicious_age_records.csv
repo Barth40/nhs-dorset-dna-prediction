@@ -1,0 +1,55 @@
+appointment_id,patient_id,age,sex,imd_decile,ethnic_group,distance_km,interpreter_required,long_term_conditions,specialty,appointment_type,consultation_mode,referral_source,appointment_datetime,booked_datetime,rescheduled_count,sms_reminder_sent,previous_dnas_12m,attendance_status,clinic_checkin_time
+OPA2029740,P108262,-1,Female,8.0,White,8.8,N,0,Dermatology,New,Face-to-face,Consultant,15/09/2025 16:00,23/05/2025 11:11,0,Y,0,Attended,15:51
+OPA2025852,P101313,-1,Female,10.0,White,3.9,N,0,Paediatrics,Follow-up,Telephone,Consultant,14/04/2025 08:30,19/03/2025 08:20,0,N,0,Attended,08:40
+OPA2011607,P105638,-1,Male,5.0,White,8.2,N,1,Opthalmology,Follow-up,Face-to-face,Consultant,23/07/2025 14:00,04/07/2025 11:11,0,Y,0,Attended,13:56
+OPA2033313,P109731,999,Male,10.0,White,8.6,N,1,Trauma and Orthopaedics,New,Face-to-face,GP,28/10/2025 14:00,01/10/2025 14:38,0,Y,0,Attended,13:51
+OPA2022893,P102698,-1,Male,3.0,Asian or Asian British,8.7,N,2,Diabetes and Endocrinology,New,Face-to-face,GP,22/10/2025 16:00,12/10/2025 11:47,1,Y,0,Attended,16:04
+OPA2021020,P103686,-1,Female,1.0,White,3.4,N,0,Cardiology,Follow-up,Face-to-face,Consultant,14/04/2025 09:00,28/02/2025 08:44,0,Y,0,Attended,08:50
+OPA2005193,P102854,-1,Male,5.0,White,2.7,N,2,Gastroentterology,Follow-up,Face-to-face,Consultant,29/07/2025 09:00,13/06/2025 08:12,0,Y,1,Cancelled by patient,
+OPA2007876,P107902,999,Male,6.0,Asian or Asian British,7.4,N,2,Cardiology,New,Face-to-face,GP,06/03/2026 14:30,05/02/2026 10:56,0,Y,0,Attended,14:34
+OPA2028687,P107032,-1,Male,1.0,Mixed,8.4,N,1,Physiotherapy,Follow-up,Face-to-face,Consultant,30/06/2025 15:00,21/05/2025 11:54,0,Y,0,Attended,15:10
+OPA2025705,P118674,999,Male,5.0,Asian or Asian British,10.7,N,0,Diabetes and Endocrinology,New,Face-to-face,GP,18/04/2025 12:30,06/12/2024 08:04,1,N,0,DNA,
+OPA2006812,P113739,-1,Male,9.0,White,11.6,N,0,Trauma and Orthopaedics,Follow-up,Face-to-face,Consultant,26/05/2025 12:00,06/04/2025 12:29,2,Y,0,Attended,12:00
+OPA2022028,P109307,150,Female,3.0,White,2.0,N,0,Paediatrics,New,Face-to-face,Other,29/10/2025 11:30,19/10/2025 15:29,1,Y,0,Attended,11:38
+OPA2014960,P102857,-1,Male,7.0,White,10.3,N,0,Trauma and Orthopaedics,Follow-up,Face-to-face,Consultant,12/05/2025 12:00,24/04/2025 14:25,0,Y,0,Cancelled by patient,
+OPA2005871,P122563,-1,Male,10.0,White,5.4,N,2,Gastroentterology,New,Face-to-face,Consultant,24/07/2025 14:00,06/06/2025 15:47,0,Y,0,Attended,13:42
+OPA2016221,P123483,-1,Male,7.0,White,12.3,N,1,Gastroentterology,New,Face-to-face,GP,25/08/2025 11:00,27/07/2025 13:06,0,Y,0,Attended,11:06
+OPA2029709,P109066,999,Female,2.0,White,9.0,N,1,Opthalmology,New,Face-to-face,GP,31/12/2025 09:30,21/12/2025 12:11,0,N,0,Attended,09:19
+OPA2018208,P104906,-1,Female,,Not Stated,0.6,N,1,Cardiology,Follow-up,Telephone,Consultant,22/12/2025 16:00,22/11/2025 13:00,0,Y,0,Cancelled by hospital,
+OPA2010583,P122134,999,Female,2.0,White,12.0,N,2,Dermatology,Follow-up,Face-to-face,Consultant,03/03/2026 09:30,16/01/2026 17:31,0,Y,0,Attended,09:20
+OPA2005423,P104804,121,Female,1.0,White,9.1,N,0,Diabetes and Endocrinology,Follow-up,Face-to-face,Consultant,17/09/2025 12:30,13/07/2025 13:46,0,Y,0,Attended,12:41
+OPA2017680,P122774,-1,Male,7.0,Asian or Asian British,13.1,Y,1,Physiotherapy,Follow-up,Face-to-face,Consultant,14/08/2025 16:00,23/07/2025 16:36,2,N,0,DNA,
+OPA2030487,P108259,999,Male,5.0,White,8.1,N,0,Paediatrics,Follow-up,Face-to-face,Consultant,22/12/2025 12:00,04/12/2025 11:15,0,Y,0,Attended,11:43
+OPA2028842,P119246,-1,Female,8.0,White,6.8,N,1,Trauma and Orthopaedics,New,Face-to-face,Other,04/04/2025 11:30,14/03/2025 08:40,0,N,0,Attended,11:32
+OPA2027460,P112877,-1,Male,5.0,Not Stated,10.1,N,1,Trauma and Orthopaedics,New,Video,GP,02/12/2025 11:30,22/10/2025 12:15,0,Y,0,Attended,11:10
+OPA2021911,P108606,150,female,3.0,Other ethnic group,13.0,N,0,Trauma and Orthopaedics,New,Telephone,Consultant,30/04/2025 11:30,07/03/2025 11:17,0,N,0,Attended,11:11
+OPA2035210,P121146,-1,Male,9.0,White,7.8,N,0,Gastroentterology,Follow-up,Face-to-face,Consultant,19/01/2026 08:30,24/10/2025 11:31,1,Y,0,Attended,08:25
+OPA2022412,P121850,-1,Female,6.0,White,9.0,N,3,Cardiology,Follow-up,Video,Consultant,16/02/2026 10:30,12/01/2026 13:16,0,Y,0,Attended,10:35
+OPA2036312,P115828,-1,Male,9.0,White,6.3,N,1,Cardiology,New,Face-to-face,GP,07/07/2025 10:30,07/05/2025 10:25,0,N,0,Attended,10:08
+OPA2024415,P103073,-1,Male,7.0,Black or Black British,4.8,N,3,Trauma and Orthopaedics,Follow-up,Face-to-face,Consultant,27/10/2025 16:00,29/09/2025 11:14,1,Y,0,Attended,15:54
+OPA2008290,P105926,-1,Female,6.0,Asian or Asian British,0.8,N,1,Trauma and Orthopaedics,New,Telephone,A&E,25/02/2026 13:00,24/02/2026 16:07,0,N,0,Attended,12:57
+OPA2022435,P102589,150,Male,,Asian or Asian British,7.7,Y,3,Diabetes and Endocrinology,Follow-up,Telephone,Consultant,11/11/2025 13:30,02/09/2025 17:11,2,Y,1,DNA,
+OPA2027363,P110701,121,Female,3.0,Black or Black British,6.0,N,0,Trauma and Orthopaedics,Follow-up,Face-to-face,Consultant,16/06/2025 14:30,15/04/2025 11:46,0,N,0,Attended,14:16
+OPA2013235,P102729,-1,Male,1.0,Not Stated,14.6,N,1,Diabetes and Endocrinology,New,Face-to-face,GP,22/05/2025 11:00,06/04/2025 16:08,1,Y,1,Attended,10:54
+OPA2008452,P104534,-1,Female,1.0,Asian or Asian British,3.1,N,0,Physiotherapy,Follow-up,Video,Consultant,22/08/2025 14:00,06/09/2025 14:00,0,Y,1,Attended,13:54
+OPA2031431,P121926,-1,Female,5.0,White,4.5,N,0,Paediatrics,New,Face-to-face,GP,26/02/2026 09:00,25/01/2026 10:25,0,N,0,Attended,09:11
+OPA2039951,P113076,150,Female,1.0,White,7.3,N,0,Opthalmology,Follow-up,Telephone,Consultant,14/04/2025 10:30,20/03/2025 08:18,0,N,0,Attended,10:06
+OPA2028790,P115930,-1,Female,3.0,White,5.0,N,5,Cardiology,New,Face-to-face,GP,12/09/2025 09:30,15/06/2025 15:01,1,Y,0,Attended,09:09
+OPA2003711,P109218,121,Female,10.0,White,3.6,N,0,Dermatology,New,Face-to-face,GP,20/10/2025 09:30,17/08/2025 11:52,1,Y,0,Attended,09:42
+OPA2025674,P100979,-1,Male,3.0,White,14.1,N,1,Respiratory Medicine,Follow-up,Telephone,Consultant,16/10/2025 14:00,08/09/2025 17:06,2,Y,0,Attended,14:00
+OPA2003909,P118455,-1,Male,3.0,White,11.3,N,4,Respiratory Medicine,New,Face-to-face,GP,22/01/2026 16:00,23/12/2025 12:49,1,Y,0,Attended,16:05
+OPA2020696,P104858,999,Male,2.0,White,6.0,N,0,Trauma and Orthopaedics,New,Face-to-face,Other,26/01/2026 16:30,29/12/2025 17:58,0,Y,3,Attended,16:23
+OPA2000336,P104643,-1,Female,4.0,White,11.3,N,1,Opthalmology,New,Face-to-face,GP,07/04/2025 15:00,11/01/2025 13:45,0,Y,0,Attended,14:58
+OPA2013339,P121477,-1,Female,8.0,White,6.8,N,0,Gastroentterology,Follow-up,Face-to-face,Consultant,26/09/2025 16:00,31/07/2025 11:54,0,Y,0,Attended,16:14
+OPA2026612,P118478,-1,Female,,White,11.2,N,1,Cardiology,New,Face-to-face,Consultant,02/07/2025 15:30,05/05/2025 08:14,0,Y,0,Attended,15:29
+OPA2005014,P119318,-1,Female,5.0,White,6.2,N,3,Dermatology,New,Face-to-face,GP,09/05/2025 08:30,07/04/2025 11:25,1,N,1,Cancelled by patient,
+OPA2033561,P114062,999,Female,8.0,White,6.1,N,2,Paediatrics,New,Face-to-face,GP,01/09/2025 13:30,24/07/2025 12:12,1,Y,0,Attended,13:30
+OPA2005604,P112091,-1,F,2.0,White,10.5,N,1,Respiratory Medicine,Follow-up,Face-to-face,Consultant,09/02/2026 16:00,18/12/2025 11:28,0,N,1,Attended,15:42
+OPA2006936,P122921,-1,Female,5.0,Black or Black British,5.1,Y,0,Dermatology,Follow-up,Face-to-face,Consultant,21/04/2025 12:30,02/04/2025 09:53,0,N,0,Attended,12:20
+OPA2009330,P101146,-1,Male,3.0,White,20.5,N,1,Respiratory Medicine,Follow-up,Face-to-face,Consultant,26/12/2025 10:00,11/10/2025 14:25,0,Y,1,Cancelled by hospital,
+OPA2001597,P107247,150,Female,1.0,Asian or Asian British,12.4,N,3,Diabetes and Endocrinology,Follow-up,Face-to-face,Consultant,07/05/2025 16:00,17/03/2025 16:51,2,Y,2,Attended,15:56
+OPA2021496,P118455,150,Male,3.0,White,11.3,N,4,Respiratory Medicine,Follow-up,Face-to-face,Consultant,03/09/2025 15:30,16/07/2025 12:57,0,Y,0,Attended,15:24
+OPA2023601,P123054,-1,Female,8.0,White,3.9,N,0,Gastroentterology,Follow-up,Face-to-face,Consultant,11/08/2025 16:00,10/08/2025 09:13,0,N,0,Attended,15:57
+OPA2008833,P106432,150,Male,4.0,White,6.0,N,1,Cardiology,New,Face-to-face,Consultant,04/08/2025 08:30,08/07/2025 17:25,0,N,0,Attended,08:34
+OPA2017321,P105054,121,Female,5.0,White,4.1,N,2,Trauma and Orthopaedics,New,Face-to-face,GP,25/08/2025 15:00,30/05/2025 14:06,0,Y,1,Attended,15:14
+OPA2013109,P115414,-1,Male,5.0,White,4.6,N,2,Opthalmology,Follow-up,Face-to-face,Consultant,04/08/2025 11:30,26/02/2025 15:41,0,Y,0,Attended,11:21

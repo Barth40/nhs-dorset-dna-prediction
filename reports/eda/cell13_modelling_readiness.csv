@@ -1,0 +1,11 @@
+requirement,status,next_step
+Cleaned binary modelling cohort,Ready,Use the saved eligible cohort.
+Exploratory analysis,Ready,Reference EDA reports.
+Prediction cutoff validation,Ready,Preserve the validated timing rule.
+Feature classification,Ready,Resolve source availability.
+Historical feature verification,Pending,Exclude or reconstruct historical features as of prediction time.
+Final predictive feature selection,Pending,Confirm cutoff-state availability and fairness considerations.
+Chronological train/test design,Pending,Define temporal boundaries and prevent future information leakage.
+Model development,Pending,Build and compare candidate models.
+Fairness evaluation,Pending,Evaluate held-out subgroup performance.
+Weekly 150-patient intervention,Pending,Evaluate calibrated risk ranking and potential intervention benefit.

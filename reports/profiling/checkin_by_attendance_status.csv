@@ -1,0 +1,5 @@
+attendance_status,Total_Records,Checkin_Present,Checkin_Missing,Missing_Percentage
+Attended,33194,33194,0,0.0
+Cancelled by hospital,1224,0,1224,100.0
+Cancelled by patient,2433,0,2433,100.0
+DNA,3329,0,3329,100.0

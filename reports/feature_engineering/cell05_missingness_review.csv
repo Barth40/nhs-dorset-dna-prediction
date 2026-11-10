@@ -1,0 +1,4 @@
+feature,missing_count,missing_percent
+distance_km,362,1.0
+distance_log1p,362,1.0
+age,48,0.13

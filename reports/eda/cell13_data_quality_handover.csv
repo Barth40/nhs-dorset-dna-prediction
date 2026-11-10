@@ -1,0 +1,8 @@
+issue,decision
+Exact duplicate rows,180 exact duplicates removed during data cleaning.
+Invalid age values,Invalid ages converted to missing rather than deleting appointments.
+Inconsistent categories,Sex and specialty categories standardised.
+Cancelled appointments,Excluded from the binary Attended versus DNA cohort.
+Invalid booking chronology,Excluded from the binary modelling cohort after eligibility checks.
+"Missing age, IMD and distance",Retained for later training-only preprocessing.
+Clinic check-in information,Excluded from predictive inputs because of outcome leakage risk.
